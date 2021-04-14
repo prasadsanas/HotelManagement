@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./side-navbar.component.css'],
 })
 export class SideNavbarComponent implements OnInit {
-  isAdminLoggedin: boolean = false;
+  isAdminLoggedin: boolean = true;
   constructor() {}
 
   ngOnInit(): void {}

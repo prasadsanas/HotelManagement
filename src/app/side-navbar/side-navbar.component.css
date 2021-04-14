@@ -4,9 +4,13 @@
 }
 a {
   text-decoration: none;
-  color: white;
+  color: rgb(233, 210, 0);
 }
-
+a:hover {
+  transform: scale(1.2);
+  color: white;
+  transition: 0.5s;
+}
 .navbar {
   background-color: rgb(71, 18, 133) !important;
   color: white !important;
@@ -17,11 +21,15 @@ a {
 .container {
   display: flex;
   flex-direction: column;
+  text-align: center;
 }
 
 .top {
   height: 15vh;
   font-size: 30px;
+}
+.top > a {
+  color: white;
 }
 .middle {
   height: 75vh;

@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
 }
-.container-fluid {
-  display: flex;
+.container {
+  width: 700px;
+  margin-left: 300px;
 }
