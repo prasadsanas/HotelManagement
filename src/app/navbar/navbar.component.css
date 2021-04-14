@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar {
+  background-color: rgb(71, 18, 133) !important;
+  color: white !important;
+  height: 50px !important;
+}
+
+.left {
+  width: 60vw;
+  padding-left: 25px;
+}
+.right {
+  width: 40vw;
+  display: flex;
+  justify-content: space-between;
+}

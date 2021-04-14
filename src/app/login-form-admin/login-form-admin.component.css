@@ -1,0 +1,30 @@
+h3 {
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+a,
+.btn {
+  text-decoration: none;
+  font-style: italic;
+  font-weight: 600;
+  color: rgb(48, 0, 104);
+}
+.box {
+  width: 380px;
+  margin: auto;
+  height: 76vh;
+  border: 1px solid rgb(0, 0, 0, 0.1);
+}
+
+.btn {
+  background-color: rgb(228, 206, 8);
+  color: rgb(83, 11, 124);
+  margin-top: 10px;
+}
+
+input,
+.btn {
+  width: 350px;
+  height: 45px;
+}

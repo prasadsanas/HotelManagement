@@ -1,0 +1,21 @@
+<nav
+  *ngIf="isAdminLoggedin"
+  class="navbar navbar-expand-lg navbar-light bg-light"
+>
+  <div class="container">
+    <div class="top">
+      <a routerLink="">BookMySuite</a>
+    </div>
+    <div class="middle">
+      <a routerLink="admin-dashboard">Overview</a>
+      <a routerLink="admin-users">Users</a>
+      <a routerLink="admin-hotels">Hotels</a>
+      <a routerLink="admin-rooms">Rooms</a>
+      <a routerLink="admin-bookings">Bookings</a>
+      <a routerLink="admin-payments">Payments</a>
+    </div>
+    <div class="bottom">
+      <button type="submit" class="btn">Logout</button>
+    </div>
+  </div>
+</nav>

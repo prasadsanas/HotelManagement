@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar {
+  background-color: rgb(71, 18, 133) !important;
+  color: white !important;
+  height: 100vh !important;
+  width: 20vw;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.top {
+  height: 15vh;
+  font-size: 30px;
+}
+.middle {
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+}
+.bottom {
+  height: 10vh;
+}
+
+.middle > a {
+  margin-top: 25px;
+}
+
+.btn {
+  background-color: rgb(228, 206, 8);
+  color: rgb(83, 11, 124);
+  width: 200px;
+  height: 45px;
+  font-weight: bold;
+  font-style: italic;
+}
