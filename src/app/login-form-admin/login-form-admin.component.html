@@ -24,12 +24,10 @@
     <button type="submit" class="btn" (click)="checkLogin()">Login</button>
     <pre></pre>
     <div class="form-group" style="text-align: center">
-      <small for="">Or</small>
-      <br />
-      <small for="warning"
-        >If you are not an hotel please try login as User!!
-      </small>
-      <pre></pre>
+      <label for="signup"
+        >Don't have an account?
+        <a [routerLink]="['/hotel-signup']">Register</a></label
+      >
       <button type="submit" class="btn" (click)="openLogin()">
         Login as User
       </button>
