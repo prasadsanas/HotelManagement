@@ -1,0 +1,38 @@
+<p>login-form-admin works!</p>
+<div class="container box">
+  <form>
+    <h3>Admin Login</h3>
+    <div class="form-group">
+      <label for="email">Email address</label>
+      <input
+        type="email"
+        class="form-control"
+        id="email"
+        aria-describedby="emailHelp"
+        placeholder="Enter your email"
+      />
+    </div>
+    <div class="form-group">
+      <label for="password">Password</label>
+      <input
+        type="password"
+        class="form-control"
+        id="password"
+        placeholder="Enter password"
+      />
+    </div>
+    <button type="submit" class="btn" (click)="checkLogin()">Login</button>
+    <pre></pre>
+    <div class="form-group" style="text-align: center">
+      <small for="">Or</small>
+      <br />
+      <small for="warning"
+        >If you are not an admin please try login as User!!
+      </small>
+      <pre></pre>
+      <button type="submit" class="btn" (click)="openLogin()">
+        Login as User
+      </button>
+    </div>
+  </form>
+</div>
