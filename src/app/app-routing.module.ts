@@ -9,6 +9,8 @@ import { AdminRoomsPageComponent } from './admin-rooms-page/admin-rooms-page.com
 import { AdminUsersPageComponent } from './admin-users-page/admin-users-page.component';
 import { AllBookingComponent } from './all-booking/all-booking.component';
 import { AmenitiesComponent } from './amenities/amenities.component';
+import { EditHotelComponent } from './edit-hotel/edit-hotel.component';
+import { EditUserComponent } from './edit-user/edit-user.component';
 import { HomeComponent } from './home/home.component';
 import { HotelSignupComponent } from './hotel-signup/hotel-signup.component';
 import { LoginFormAdminComponent } from './login-form-admin/login-form-admin.component';
@@ -36,6 +38,8 @@ const routes: Routes = [
   { path: 'admin-bookings', component: AdminBookingsPageComponent },
   { path: 'admin-payments', component: AdminPaymentsPageComponent },
   { path: 'hotel-signup', component: HotelSignupComponent },
+  { path: 'edit-user', component: EditUserComponent },
+  { path: 'edit-hotel', component: EditHotelComponent },
 ];
 
 @NgModule({

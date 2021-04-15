@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+}
+.left,
+.right {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+}
+.left {
+  background-color: wheat;
+}
+
+.right {
+  background-color: silver;
+}

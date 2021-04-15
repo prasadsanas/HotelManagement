@@ -26,6 +26,9 @@ import { AdminPaymentsPageComponent } from './admin-payments-page/admin-payments
 import { HotelSignupComponent } from './hotel-signup/hotel-signup.component';
 import { DateSearchComponent } from './date-search/date-search.component';
 import { BookingDetailsComponent } from './booking-details/booking-details.component';
+import { EditUserComponent } from './edit-user/edit-user.component';
+import { EditHotelComponent } from './edit-hotel/edit-hotel.component';
+import { HotelCardComponent } from './hotel-card/hotel-card.component';
 
 @NgModule({
   declarations: [
@@ -52,6 +55,9 @@ import { BookingDetailsComponent } from './booking-details/booking-details.compo
     HotelSignupComponent,
     DateSearchComponent,
     BookingDetailsComponent,
+    EditUserComponent,
+    EditHotelComponent,
+    HotelCardComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, RouterModule],
   providers: [],

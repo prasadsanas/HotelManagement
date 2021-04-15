@@ -7,13 +7,12 @@ import { Router } from '@angular/router';
   styleUrls: ['./side-navbar.component.css'],
 })
 export class SideNavbarComponent implements OnInit {
-  isAdminLoggedin: boolean = true;
+  isAdminLoggedin: boolean = false;
   constructor(private router: Router) {}
 
   ngOnInit(): void {}
 
   logout() {
-    this.isAdminLoggedin = false;
     this.router.navigate(['/login-admin']);
   }
 }

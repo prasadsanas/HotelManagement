@@ -1,4 +1,4 @@
-<nav *ngIf="isLoggedin" class="navbar navbar-expand-lg navbar-light bg-light">
+<nav *ngIf="!isLoggedin" class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container">
     <div class="left">
       <a routerLink="">BookMySuite</a>
@@ -12,7 +12,7 @@
   </div>
 </nav>
 
-<nav *ngIf="isLoggedin" class="navbar navbar-expand-lg navbar-light bg-light">
+<nav *ngIf="!isLoggedin" class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container">
     <div class="left">
       <a routerLink="user-home">BookMySuite</a>
@@ -21,7 +21,31 @@
       <a routerLink="user-home">Home</a>
       <a routerLink="new-booking">New Bookings</a>
       <a routerLink="all-booking">All Bookings</a>
-      <a routerLink="user-profile">Profile</a>
+      <div class="dropdown">
+        <button class="dropbtn">Profile</button>
+        <div class="dropdown-content">
+          <a routerLink="user-profile">View Profile</a>
+          <a (click)="logout()">Logout</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<nav class="navbar navbar-expand-md navbar-light bg-light">
+  <a routerLink="" class="navbar-brand">BookMySuite</a>
+  <button
+    type="button"
+    class="navbar-toggler"
+    data-toggle="collapse"
+    data-target="#navbarCollapse"
+  >
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarCollapse">
+    <div class="navbar-nav ml-auto">
+      <a routerLink="login" class="nav-item nav-link">Login / Signup</a>
     </div>
   </div>
 </nav>
