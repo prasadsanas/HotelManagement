@@ -29,6 +29,7 @@ import { BookingDetailsComponent } from './booking-details/booking-details.compo
 import { EditUserComponent } from './edit-user/edit-user.component';
 import { EditHotelComponent } from './edit-hotel/edit-hotel.component';
 import { HotelCardComponent } from './hotel-card/hotel-card.component';
+import { RoomCardComponent } from './room-card/room-card.component';
 
 @NgModule({
   declarations: [
@@ -58,6 +59,7 @@ import { HotelCardComponent } from './hotel-card/hotel-card.component';
     EditUserComponent,
     EditHotelComponent,
     HotelCardComponent,
+    RoomCardComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, RouterModule],
   providers: [],

@@ -23,34 +23,7 @@ a,
   height: 45px;
   background-color: rgb(228, 206, 8);
   color: rgb(83, 11, 124);
+  margin: auto;
   margin-top: 20px;
-  margin-left: 30%;
   align-self: center;
-}
-
-input {
-  width: 350px;
-  height: 45px;
-}
-
-.main {
-  display: flex;
-}
-
-.left,
-.right {
-  width: 50%;
-}
-
-@media screen and (max-width: 780px) {
-  .main {
-    display: flex;
-    flex-direction: column;
-  }
-  .box {
-    width: 90%;
-  }
-  input {
-    width: 250px;
-  }
 }
