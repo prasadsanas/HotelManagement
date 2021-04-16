@@ -31,10 +31,11 @@ label {
 }
 
 button {
-  background-color: #ffee04;
+  background-color: rgb(87, 30, 153);
   max-width: 300px;
   height: 40px;
   border-radius: 5px;
+  color: white;
 }
 
 img {
