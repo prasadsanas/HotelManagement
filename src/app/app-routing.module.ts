@@ -16,6 +16,7 @@ import { HotelSignupComponent } from './hotel-signup/hotel-signup.component';
 import { LoginFormAdminComponent } from './login-form-admin/login-form-admin.component';
 import { LoginComponent } from './login/login.component';
 import { NewBookingComponent } from './new-booking/new-booking.component';
+import { RespSideNavComponent } from './resp-side-nav/resp-side-nav.component';
 import { SignupComponent } from './signup/signup.component';
 import { UserHomeComponent } from './user-home/user-home.component';
 import { UserProfileComponent } from './user-profile/user-profile.component';
@@ -40,6 +41,7 @@ const routes: Routes = [
   { path: 'hotel-signup', component: HotelSignupComponent },
   { path: 'edit-user', component: EditUserComponent },
   { path: 'edit-hotel', component: EditHotelComponent },
+  { path: 'side-nav', component: RespSideNavComponent },
 ];
 
 @NgModule({

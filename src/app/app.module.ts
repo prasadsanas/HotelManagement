@@ -30,6 +30,8 @@ import { EditUserComponent } from './edit-user/edit-user.component';
 import { EditHotelComponent } from './edit-hotel/edit-hotel.component';
 import { HotelCardComponent } from './hotel-card/hotel-card.component';
 import { RoomCardComponent } from './room-card/room-card.component';
+import { RespSideNavComponent } from './resp-side-nav/resp-side-nav.component';
+import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -60,8 +62,14 @@ import { RoomCardComponent } from './room-card/room-card.component';
     EditHotelComponent,
     HotelCardComponent,
     RoomCardComponent,
+    RespSideNavComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule, RouterModule],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    RouterModule,
+    NoopAnimationsModule,
+  ],
   providers: [],
   bootstrap: [AppComponent],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
